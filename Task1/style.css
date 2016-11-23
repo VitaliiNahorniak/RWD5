@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.main {
+	padding: 30px;
+}
+
+button {
+	color: #555555;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	background: linear-gradient(#E0E0E0, #AFAFAF);
+	border-radius: 15px;
+	font-weight: 700;
+	border: 1px solid #7f7f7f;
+	box-shadow: 
+		0 0 0 4px #CACACA, 
+        0 0 0 6px #F8F8F8, 
+        0 0 0 8px #757575;
+ 	text-shadow: 0px 0px 1px black;
+}
+
+.stars {
+	font-size: 30px;
+	color: grey;
+}
