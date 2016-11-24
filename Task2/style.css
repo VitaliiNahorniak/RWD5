@@ -3,11 +3,21 @@
 	padding: 0;
 	font-family: Arial;
 }
-a.icon.icon-logo {
+
+a.icon {
+    position: absolute;
+    top: 200px;
+    left: 146px;
+}
+
+.icon-logo:before {
 	background: url(logo.jpg);
 	display: inline-block;
 	height: 173px;
 	width: 200px;   
-	text-indent: 100%;
-   	overflow: hidden;
+    position: absolute;
+    top: -140px;
+    left: -85px;
+    content: "";
+    
 }
