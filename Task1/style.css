@@ -8,16 +8,28 @@
 	padding: 30px;
 }
 
-span.stars {
+span.checkout:before {
 	background: url(star.png);
+	background-repeat: no-repeat;
 	display: inline-block;
 	height: 48px;
 	width: 48px;
+	content: "";
+	// margin-top: 15px;
+}
+
+span.checkout:after {
+	background: url(star.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 48px;
+	width: 48px;
+	content: "";
 }
 
 button {
 	color: #555555;
-	font-size: 40px;
+	font-size: 45px;
 	text-transform: uppercase;
 	padding: 5px 10px 15px 10px;
 	background: linear-gradient(#E0E0E0, #AFAFAF);
@@ -28,5 +40,6 @@ button {
 		0 0 0 4px #CACACA, 
         0 0 0 6px #F8F8F8, 
         0 0 0 8px #757575;
- 	text-shadow: 0px 0px 1px black;
+ 	text-shadow: 0px 0px 2px black;
 }
+
